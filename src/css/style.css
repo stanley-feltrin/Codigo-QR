@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+main{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 255px;
+    padding: 13px;
+    border-radius: 18px;
+}
+
+.container .QR{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.container .conteudo .titulo{
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.container .conteudo .explicacao{
+    font-size: 12px;
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+
